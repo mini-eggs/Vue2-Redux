@@ -1,4 +1,4 @@
-Vue2 Redux
+# Vue2 Redux
 `npm install vue2-redux --save`
 
 #### Setup in project
@@ -60,14 +60,14 @@ new Vue({
 
 #### Special note
 
-This WILL NOT work if your .babelrc has 
+This WILL NOT work if your .babelrc has:
 ```json
 {
   "presets": [["env"], { "modules": false }]
 }
 ```
 
-This MUST BE changed to 
+This MUST BE changed to:
 ```json
 {
   "presets": [["env"]]
