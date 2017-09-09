@@ -2784,8 +2784,8 @@ path-type@^1.0.0:
     pinkie-promise "^2.0.0"
 
 pbkdf2@^3.0.3:
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/pbkdf2/-/pbkdf2-3.0.13.tgz#c37d295531e786b1da3e3eadc840426accb0ae25"
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/pbkdf2/-/pbkdf2-3.0.14.tgz#a35e13c64799b06ce15320f459c230e68e73bade"
   dependencies:
     create-hash "^1.1.2"
     create-hmac "^1.1.4"
@@ -3991,8 +3991,8 @@ vue-template-es2015-compiler@^1.2.2:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.5.3.tgz#22787de4e37ebd9339b74223bc467d1adee30545"
 
 vue2-redux@next:
-  version "1.0.0-rc.4"
-  resolved "https://registry.yarnpkg.com/vue2-redux/-/vue2-redux-1.0.0-rc.4.tgz#669ff1ec458395528069cc79673b8b5abe11b8fe"
+  version "1.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/vue2-redux/-/vue2-redux-1.0.0-rc.6.tgz#1c598894c2e196aa5f30898255c53fd73e67ca8f"
 
 vue@^2.3.3:
   version "2.4.2"
