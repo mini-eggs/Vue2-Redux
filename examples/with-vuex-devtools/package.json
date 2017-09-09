@@ -11,7 +11,7 @@
   "dependencies": {
     "redux": "^3.7.2",
     "vue": "^2.3.3",
-    "vue2-redux": "next",
+    "vue2-redux": "^1.0.0",
     "vuex": "^2.4.0"
   },
   "devDependencies": {
