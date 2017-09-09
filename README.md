@@ -1,4 +1,5 @@
 # Vue2 Redux
+
 `npm install vue2-redux --save`
 
 #### Setup in project

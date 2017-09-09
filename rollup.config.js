@@ -13,7 +13,7 @@ const config = {
     react: "React"
   },
   format: "umd",
-  moduleName: "ReactEmit",
+  moduleName: "VueRedux",
   plugins: [
     nodeResolve(),
     babel({

@@ -9,7 +9,7 @@ function connect(stateReducer, dispatchReducer) {
       mixins: [component],
 
       data() {
-        return Object.assign({}, this.getDataFromStore(), {
+        return Object.assign({}, this.__internal_get_data_from_store__(), {
           __internal_store_subscription__: undefined
         });
       },
@@ -25,7 +25,7 @@ function connect(stateReducer, dispatchReducer) {
       },
 
       methods: {
-        getDataFromStore() {
+        __internal_get_data_from_store__() {
           const store = this.$__internal_redux_store__();
           const state =
             typeof stateReducer === "function"
@@ -38,7 +38,7 @@ function connect(stateReducer, dispatchReducer) {
           return Object.assign({}, state, actions);
         },
         handle() {
-          Object.assign(this.$data, this.getDataFromStore());
+          Object.assign(this.$data, this.__internal_get_data_from_store__());
         }
       }
     };
