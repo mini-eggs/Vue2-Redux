@@ -1,6 +1,6 @@
 # Vue2 Redux
 
-![](https://raw.githubusercontent.com/mini-eggs/Vue2-Redux/master/logo/logo-variation-2.png | width=250)
+<img src="https://raw.githubusercontent.com/mini-eggs/Vue2-Redux/master/logo/logo-variation-2.png" alt="" data-canonical-src="https://raw.githubusercontent.com/mini-eggs/Vue2-Redux/master/logo/logo-variation-2.png" width="250" />
 
 `npm install vue2-redux --save`
 
